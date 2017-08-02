@@ -62,10 +62,37 @@
 
 ## Performance Evaluation
 
+* CPI (每条指令执行的CPU周期数)
+* Amdahl's law
+* Golden Rule of PE
+    - Ensure maasured results are deterministic
+        + Dedicated runs, unloaded system
+* CPI--type
+    - Pipeline CPI 
+    - Memory System CPI(Memory stall)
+* C-AMAT
+* Efficientcy
+    - 用多少个processor达到额定的speedup
+* Scalibility
 
 
 
+## Memory Performance
 
+* SRAM
+* DRAM
+* FLASH
+
+* Cache miss
+    - Compulsory
+    - Cpacity
+    - Conflict(Hash)
+    - Coherence(for multi-core)
+
+## Memory and Memory Hierarchy
+
+* Markov Predict
+    - 没有规律的，根据历史情况进行预测
 
 
 
