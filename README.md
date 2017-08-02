@@ -89,10 +89,25 @@
     - Conflict(Hash)
     - Coherence(for multi-core)
 
-## Memory and Memory Hierarchy
+## Memory and Memory Hierarchy(Reduce AMAT)
 
 * Markov Predict
     - 没有规律的，根据历史情况进行预测
+* optimization focus on 
+    - locality && concurrency
+* cache placememt
+* cache replacememt
+    - Rencency based-LRU
+    - Frequency based-LFU
+* write strategy
+    - write back   --- 有人需要再写回
+    - write through  --- 任何修改时都写回
+
+## Concurrent Memory Performance and Optimization
+
+* APC(Access Per Cycle)
+* Data intensive
+
 
 
 
